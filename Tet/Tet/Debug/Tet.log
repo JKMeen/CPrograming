@@ -1,0 +1,29 @@
+﻿빌드 시작: 2016-05-24 오후 11:02:31
+     1>2 노드의 "E:\강의\프로그래밍\C프로그래밍\Tet\Tet\Tet.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\Tet.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Tet.cpp
+         Tet.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: 'ExtensionAttribute' : 'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll'에서 기호를 가져올 수 없습니다. 'System::Runtime::CompilerServices::ExtensionAttribute'을(를) 다른 어셈블리 'mscorlib'에서 이미 가져왔습니다.
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : 'System::Runtime::CompilerServices::ExtensionAttribute' 선언을 참조하십시오.
+                 처음 표시된 형식이 사용됩니다. 현재 형식을 사용하려면 가져온 어셈블리의 순서를 변경하십시오.
+                 'System.Runtime.CompilerServices.ExtensionAttribute' 형식을 'System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' 어셈블리에서 가져오는 동안 이 진단이 수행되었습니다.
+     1>Tet.cpp(42): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>Tet.cpp(44): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>Tet.cpp(46): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Tet.exe.embed.manifest.res" Debug\Tet_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\강의\프로그래밍\C프로그래밍\Tet\Debug\Tet.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Tet.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\강의\프로그래밍\C프로그래밍\Tet\Debug\Tet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\강의\프로그래밍\C프로그래밍\Tet\Debug\Tet.lib" /MACHINE:X86 Debug\Tet.exe.embed.manifest.res
+         Debug\Tet.obj
+     1>MSVCRTD.lib(crtexew.obj) : error LNK2019: _WinMain@16 외부 기호(참조 위치: ___tmainCRTStartup 함수)에서 확인하지 못했습니다.
+     1>E:\강의\프로그래밍\C프로그래밍\Tet\Debug\Tet.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+     1>"E:\강의\프로그래밍\C프로그래밍\Tet\Tet\Tet.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:08.47
